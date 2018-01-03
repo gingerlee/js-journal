@@ -9,7 +9,7 @@ $(document).ready(function() {
     var wordCount = newEntry.wordNumber(story);
     var vowCount = newEntry.vowNumber(story);
     // var conCount = newEntry.conNumber(story);
-    $('#solution').append(`<li> Word Count: ` + wordCount + `</li> <li>` + vowCount + ` </li>`
+    $('#solution').append(`<li> Word Count: ` + wordCount + `</li> <li> Vowel Count: ` + vowCount + ` </li>`
     );
   });
 });
